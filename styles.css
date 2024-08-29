@@ -1,0 +1,115 @@
+body {
+font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #010d32, #5c85b6, #188f57); /* Gradient from blue to light green */
+    color: #333;
+}
+
+header {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 3.5rem;
+    text-align: left;
+    margin-left: 1%
+}
+
+main section {
+    padding: 40px;
+    margin: 20px 0;
+    width: 50%;
+    position: relative;
+}
+
+main section h2 {
+    color: #fff;
+    border-bottom: rgba(145, 255, 0, 0.399) 1px solid;
+}
+
+main section p {
+    color :#ffffffc5;
+}
+
+.left-section {
+    float: left;
+    text-align: left;
+}
+
+.right-section {
+    float: right;
+    text-align: right;
+}
+
+
+
+h2 {
+    font-size: 2.2rem;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+/* Clear floats after sections */
+main::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    position: relative;
+    bottom: 0%;
+}
+
+    footer p {
+    margin: 0;
+    padding-left: 5%;
+}
+
+#toTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#toTopBtn:hover {
+    background-color: #ff4500;
+}
